@@ -1,13 +1,12 @@
-// import { add } from '../index';
+import { fizzbuzz } from '../index';
 
 
 describe('FizzBuzzTest', () => {
-  test('数を文字列に変換する', () => {
+  test('1を渡すと文字列"1"を返す', () => {
     // 準備
     // 実行
     // 検証
-    expect().toBe();
+    const actual = fizzbuzz.convert(1);
+    expect(actual).toBe("0");
   });
-
-
 });
