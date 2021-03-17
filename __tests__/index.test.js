@@ -12,4 +12,10 @@ describe('FizzBuzzTest', () => {
     // 実行 & 検証
     expect(fizzbuzz.convert(2)).toBe("2");
   });
+
+  test('3を渡すと文字列"Fizz"を返す', () => {
+    // 準備
+    // 実行 & 検証
+    expect(fizzbuzz.convert(3)).toBe("Fizz");
+  });
 });
