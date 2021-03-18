@@ -1,5 +1,4 @@
-import { fizzbuzz } from '../index';
-
+import { fizzbuzz } from '../fizzbuzz';
 
 describe('Fizz Buzz 数列と変換規則を扱うfizzbuzzクラス', () => {
   beforeEach( () => {
